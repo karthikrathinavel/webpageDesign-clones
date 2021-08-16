@@ -1,0 +1,105 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+	font-family: arial, sans-serif;
+}
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+.main1{
+	margin-top: 100px;
+	text-align: center;
+}
+.main2{
+	margin: 10px;
+	width: 62%;
+	height: 40px;
+	border-radius: 20px;
+	border: .5px solid lightblue;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main2 input{
+	margin: 10px 10px;
+	height: 90%;
+	border: none;
+}
+.main2 img{
+	padding: 10px;
+	opacity: .5;
+}
+input:focus{
+	outline: none;
+}
+input[type="text"]{
+	font-size: 16px;
+}
+img{
+	max-width: 90%;
+	height: auto;
+}
+.main3 button{
+	background: ghostwhite;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	border: none;
+	color: steelblue;
+}
+.main3 button:hover{
+	box-shadow: .5px .5px 1px 1px black;
+}
+span{
+	display: inline-block;
+	margin-top: 20px;
+}
+.languages{
+	color: blue;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: ghostwhite;
+	color: lightslategray;
+	font-size: 20px;
+	padding-left: 10px;
+
+}
+.footer .left{
+	float: left;
+}
+.footer .right{
+	float: right;
+	padding-right: 30px;
+}
+.nav{
+	position: fixed;
+	top: 0;
+	right: 10px;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.nav ul li{
+	display: inline-block;
+	padding-left: 10px;
+
+}
+#circle{
+	position: relative;
+	width: 40px;
+	height: 40px;
+	background-color: red;
+	border-radius: 50%;
+	top: 15px;
+}
